@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScreenSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>MainMenuScreenGum</Name>
+  <BaseType />
+  <State>
+    <Name>Default</Name>
+    <Variable>
+      <Type>IsOpen</Type>
+      <Name>IsOpenState</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>Opacity</Type>
+      <Name>OpacityState</Name>
+      <Value xsi:type="xsd:string">Transparent</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>OpenMainMenu</Type>
+      <Name>OpenMainMenuState</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>OpenMenu</Type>
+      <Name>OpenMenuState</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ShopMenuInstance.X</Name>
+      <Value xsi:type="xsd:float">-256</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ShopMenuInstance.Y</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+  </State>
+  <Category>
+    <Name>IsOpen</Name>
+    <IsSetRecursively>false</IsSetRecursively>
+    <State>
+      <Name>Open</Name>
+      <Variable>
+        <Type>float</Type>
+        <Name>MainMenuScreenComponentInstance.X</Name>
+        <Value xsi:type="xsd:float">256</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>Gum.Managers.PositionUnitType</Type>
+        <Name>MainMenuScreenComponentInstance.X Units</Name>
+        <Value xsi:type="xsd:int">6</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>MainMenuScreenComponentInstance.Y</Name>
+        <Value xsi:type="xsd:float">0</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ShopMenuInstance.X</Name>
+        <Value xsi:type="xsd:float">0</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>Close</Name>
+      <Variable>
+        <Type>float</Type>
+        <Name>MainMenuScreenComponentInstance.X</Name>
+        <Value xsi:type="xsd:float">0</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>PositionUnitType</Type>
+        <Name>MainMenuScreenComponentInstance.X Units</Name>
+        <Value xsi:type="xsd:int">6</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>MainMenuScreenComponentInstance.Y</Name>
+        <Value xsi:type="xsd:float">0</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ShopMenuInstance.X</Name>
+        <Value xsi:type="xsd:float">-256</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+  </Category>
+  <Instance>
+    <Name>ScreenAnimationsInstance</Name>
+    <BaseType>ScreenAnimations</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+    <Locked>true</Locked>
+  </Instance>
+  <Instance>
+    <Name>MainMenuScreenComponentInstance</Name>
+    <BaseType>MainMenuScreenComponent</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ShopMenuInstance</Name>
+    <BaseType>ShopMenu</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Behaviors />
+</ScreenSave>

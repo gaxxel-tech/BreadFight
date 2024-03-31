@@ -1,0 +1,230 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <DefineConstants>MONOGAME;DESKTOP_GL;XNA4;FRB_XNA;MONOGAME_381</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <RootNamespace>BreadFight</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+    <None Remove="**\*.glsj" />
+    <None Remove="**\*.glej" />
+    <None Remove="**\*.gluj" />
+    <None Include="content\entities\baseweapon\unicornsevolvingswords00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>UnicornsEvolvingSwords00</Name>
+    </None>
+    <None Include="content\entities\healthbarentity\futilepro_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>futilepro_0</Name>
+    </None>
+    <None Include="content\entities\player\arcade.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Arcade</Name>
+    </None>
+    <None Include="content\entities\player\arcade1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Arcade1</Name>
+    </None>
+    <None Include="content\screens\level1\arcade_platformerv2 (1).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>arcade_platformerv2 (1)</Name>
+    </None>
+    <None Include="content\screens\level1\arcade_platformerv2 (1).tsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>arcade_platformerv2 (1)</Name>
+    </None>
+    <None Include="content\screens\level1\level1map.tmx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Level1Map</Name>
+    </None>
+    <None Include="content\standardtileset.tsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>standardtileset</Name>
+    </None>
+    <None Include="content\standardtileseticons.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>standardtileseticons</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataTypes\TileMapInfo.Generated.cs" />
+    <Compile Include="Entities\BaseEnemy.cs" />
+    <Compile Include="Entities\BaseEnemy.Generated.cs">
+      <DependentUpon>BaseEnemy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseWeapon.cs" />
+    <Compile Include="Entities\BaseWeapon.Generated.cs">
+      <DependentUpon>BaseWeapon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\CameraMan.cs" />
+    <Compile Include="Entities\CameraMan.Generated.cs">
+      <DependentUpon>CameraMan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\HealthBarInstance.cs" />
+    <Compile Include="Entities\HealthBarInstance.Generated.cs">
+      <DependentUpon>HealthBarInstance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Player.Generated.cs">
+      <DependentUpon>Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Spawner.cs" />
+    <Compile Include="Entities\Spawner.Generated.cs">
+      <DependentUpon>Spawner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\SpawnPointLocation.cs" />
+    <Compile Include="Entities\SpawnPointLocation.Generated.cs">
+      <DependentUpon>SpawnPointLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\BaseEnemyFactory.Generated.cs" />
+    <Compile Include="Factories\BaseWeaponFactory.Generated.cs" />
+    <Compile Include="Factories\CameraManFactory.Generated.cs" />
+    <Compile Include="Factories\HealthBarInstanceFactory.Generated.cs" />
+    <Compile Include="Factories\PlayerFactory.Generated.cs" />
+    <Compile Include="Factories\SpawnerFactory.Generated.cs" />
+    <Compile Include="Factories\SpawnPointLocationFactory.Generated.cs" />
+    <Compile Include="FileAliases.Generated.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Game1.Generated.cs">
+      <DependentUpon>Game1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalContent.Generated.cs" />
+    <Compile Include="GlueCommunication\GameConnectionManager.Generated.cs" />
+    <Compile Include="GlueControl\CommandReceiver.Generated.cs" />
+    <Compile Include="GlueControl\Dtos.Generated.cs" />
+    <Compile Include="GlueControl\Editing\CameraLogic.Generated.cs" />
+    <Compile Include="GlueControl\Editing\CopyPasteManager.Generated.cs" />
+    <Compile Include="GlueControl\Editing\EditingManager.Generated.cs" />
+    <Compile Include="GlueControl\Editing\EditorVisuals.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Guides.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Managers\GenerateCodeCommands.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Managers\GlueCommands.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Managers\GlueCommandsStateBase.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Managers\GlueState.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Managers\GluxCommands.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Managers\ObjectFinder.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Managers\RefreshCommands.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Markers\MeasurementMarker.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Markers\PolygonPointHandles.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Markers\SelectionMarker.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Markers\TileShapeCollectionMarker.Generated.cs" />
+    <Compile Include="GlueControl\Editing\MoveObjectToContainerLogic.Generated.cs" />
+    <Compile Include="GlueControl\Editing\SelectionLogic.Generated.cs" />
+    <Compile Include="GlueControl\Editing\VariableAssignmentLogic.Generated.cs" />
+    <Compile Include="GlueControl\Editing\Visuals\Arrow.Generated.cs" />
+    <Compile Include="GlueControl\GlueCallsClassGenerationManager.Generated.cs" />
+    <Compile Include="GlueControl\GlueControlManager.Generated.cs" />
+    <Compile Include="GlueControl\InstanceLogic.Generated.cs" />
+    <Compile Include="GlueControl\Models\CustomVariable.Generated.cs" />
+    <Compile Include="GlueControl\Models\GlueElement.Generated.cs" />
+    <Compile Include="GlueControl\Models\GlueElementFileReference.Generated.cs" />
+    <Compile Include="GlueControl\Models\GlueProjectSave.Generated.cs" />
+    <Compile Include="GlueControl\Models\GlueProjectSaveExtensions.Generated.cs" />
+    <Compile Include="GlueControl\Models\IElementExtensionMethods.Generated.cs" />
+    <Compile Include="GlueControl\Models\INamedObjectContainer.Generated.cs" />
+    <Compile Include="GlueControl\Models\NamedObjectSave.Generated.cs" />
+    <Compile Include="GlueControl\Models\NamedObjectSaveExtensionMethods.Generated.cs" />
+    <Compile Include="GlueControl\Models\ReferencedFileSave.Generated.cs" />
+    <Compile Include="GlueControl\Models\StateSave.Generated.cs" />
+    <Compile Include="GlueControl\Models\StateSaveCategory.Generated.cs" />
+    <Compile Include="GlueControl\Runtime\DynamicEntity.Generated.cs" />
+    <Compile Include="GlueControl\Screens\EntityViewingScreen.Generated.cs" />
+    <Compile Include="Performance\IEntityFactory.Generated.cs" />
+    <Compile Include="Performance\PoolList.Generated.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Screens\GameScreen.cs" />
+    <Compile Include="Screens\GameScreen.Event.cs">
+      <DependentUpon>GameScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GameScreen.Generated.cs">
+      <DependentUpon>GameScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GameScreen.Generated.Event.cs">
+      <DependentUpon>GameScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Level1.cs" />
+    <Compile Include="Screens\Level1.Generated.cs">
+      <DependentUpon>Level1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\CameraSetup.Generated.cs" />
+    <Compile Include="TileCollisions\CollidableListVsTileShapeCollectionRelationship.Generated.cs" />
+    <Compile Include="TileCollisions\CollidableVsTileShapeCollectionRelationship.Generated.cs" />
+    <Compile Include="TileCollisions\CollisionManagerTileShapeCollectionExtensions.Generated.cs" />
+    <Compile Include="TileCollisions\TileShapeCollection.Generated.cs" />
+    <Compile Include="TileEntities\TileEntityInstantiator.Generated.cs" />
+    <Compile Include="TileGraphics\AbstractMapLayer.Generated.cs" />
+    <Compile Include="TileGraphics\AnimationChainContainer.Generated.cs" />
+    <Compile Include="TileGraphics\ExternalTileset.Generated.cs" />
+    <Compile Include="TileGraphics\LayeredTileMap.Generated.cs" />
+    <Compile Include="TileGraphics\LayeredTileMapAnimation.Generated.cs" />
+    <Compile Include="TileGraphics\MapDrawableBatch.Generated.cs" />
+    <Compile Include="TileGraphics\MapLayer.Generated.cs" />
+    <Compile Include="TileGraphics\MapTileset.Generated.cs" />
+    <Compile Include="TileGraphics\MapTilesetTile.Generated.cs" />
+    <Compile Include="TileGraphics\NamedValue.Generated.cs" />
+    <Compile Include="TileGraphics\ReducedTileMapInfo.Generated.cs" />
+    <Compile Include="TileGraphics\ReducedTileMapInfo.TiledMapSave.Generated.cs" />
+    <Compile Include="TileGraphics\TileAnimation.Generated.cs" />
+    <Compile Include="TileGraphics\TileAnimationFrame.Generated.cs" />
+    <Compile Include="TileGraphics\TiledMapSave.Conversion.Generated.cs" />
+    <Compile Include="TileGraphics\TiledMapSave.Serialization.Generated.cs" />
+    <Compile Include="TileGraphics\TiledMapToShapeCollectionConverter.Generated.cs" />
+    <Compile Include="TileGraphics\TileNodeNetworkCreator.Generated.cs" />
+    <Compile Include="TileGraphics\Tileset.Generated.cs" />
+    <Compile Include="TileGraphics\TilesetExtensionMethods.Generated.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FlatRedBallDesktopGLNet6" Version="2024.02.01.366" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="SkiaSharp" Version="2.88.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FlatRedBall.Forms.DesktopGlNet6">
+      <HintPath>Libraries\DesktopGl\Debug\FlatRedBall.Forms.DesktopGlNet6.dll</HintPath>
+    </Reference>
+    <Reference Include="GumCore.DesktopGlNet6">
+      <HintPath>Libraries\DesktopGl\Debug\GumCore.DesktopGlNet6.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaInGum">
+      <HintPath>Libraries\DesktopGl\Debug\SkiaInGum.dll</HintPath>
+    </Reference>
+    <Reference Include="StateInterpolation.DesktopNet6">
+      <HintPath>Libraries\DesktopGl\Debug\StateInterpolation.DesktopNet6.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Content\Shader.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\shader.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\ShaderForcePoint.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\ShaderForcePoint.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+    <Message Text="Restoring dotnet tools" Importance="High" />
+    <Exec Command="dotnet tool restore" />
+  </Target>
+</Project>

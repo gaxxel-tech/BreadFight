@@ -1,0 +1,1441 @@
+{
+  "UserEvents": {
+    "Yo": [
+      {
+        "NewName": "GameScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-19T17:16:37.4060467Z"
+      },
+      {
+        "NewName": "Level1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-19T17:16:43.154472Z"
+      },
+      {
+        "NewName": "GameScreenGum",
+        "OldName": "GameScreen",
+        "ElementType": "Screens",
+        "EventType": 2,
+        "TimestampUtc": "2024-03-19T17:17:04.8817568Z"
+      },
+      {
+        "NewName": "Level1Gum",
+        "OldName": "Level1",
+        "ElementType": "Screens",
+        "EventType": 2,
+        "TimestampUtc": "2024-03-19T17:17:09.5197788Z"
+      },
+      {
+        "NewName": "HealthBar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-19T17:22:30.5184429Z"
+      },
+      {
+        "NewName": "HealthBar (Text).Text",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T17:23:33.4510516Z"
+      },
+      {
+        "NewName": "HealthBar (Text).HP",
+        "OldName": "HealthBar (Text).Text",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-19T17:24:03.4388583Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-19T18:37:19.4332778Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T18:46:41.6602887Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.SpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T18:48:11.3651269Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.Background",
+        "OldName": "MainMenuScreenGum.ColoredRectangleInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-19T18:48:56.6035585Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.Sprites",
+        "OldName": "MainMenuScreenGum.SpriteInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-19T18:49:01.3525374Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T18:51:21.0688294Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.StartGame",
+        "OldName": "MainMenuScreenGum.ButtonStandardInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-19T18:51:33.2338664Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.StartGameButton",
+        "OldName": "MainMenuScreenGum.StartGame",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-19T18:51:37.6177002Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.StartGameButton1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T18:51:55.7462943Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ExitButton",
+        "OldName": "MainMenuScreenGum.StartGameButton1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-19T18:52:02.6096132Z"
+      },
+      {
+        "NewName": "FadeInOutScreenGum.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T19:21:08.5801883Z"
+      },
+      {
+        "NewName": "Transparent",
+        "OldName": "FadeIn",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-03-19T19:22:54.6268207Z"
+      },
+      {
+        "NewName": "Opaque",
+        "OldName": "FadeOut",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-03-19T19:22:58.6980315Z"
+      },
+      {
+        "NewName": "GameScreenGum.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T19:27:09.976881Z"
+      },
+      {
+        "NewName": "GameScreenGum.FadeAnimation",
+        "OldName": "GameScreenGum.ColoredRectangleInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-19T19:27:24.2098492Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.ColoredRectangle FadeAnimation in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-19T19:32:10.2652263Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "FadeInOutScreenGum.ColoredRectangle ColoredRectangleInstance in FadeInOutScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-19T19:32:12.2171335Z"
+      },
+      {
+        "NewName": "GameScreenGum.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-19T19:33:58.4988413Z"
+      },
+      {
+        "NewName": "ScreenAnimations",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-20T11:02:07.5016395Z"
+      },
+      {
+        "NewName": "ScreenAnimations (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T11:02:33.5811211Z"
+      },
+      {
+        "NewName": "Opacity",
+        "OldName": "Opcaity",
+        "ElementType": "Components",
+        "EventType": 4,
+        "TimestampUtc": "2024-03-20T11:03:04.8382771Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ScreenAnimationsInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T11:06:35.2662663Z"
+      },
+      {
+        "NewName": "Level1Gum.ScreenAnimationsInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T11:39:53.8908292Z"
+      },
+      {
+        "NewName": "Level1Gum.TextBoxInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T21:10:26.3322333Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Level1Gum.Controls/TextBox TextBoxInstance in Level1Gum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-20T21:10:30.8166056Z"
+      },
+      {
+        "NewName": "Level1Gum.LabelInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T21:10:53.6291048Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Level1Gum.Elements/Label LabelInstance in Level1Gum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-20T21:11:04.738482Z"
+      },
+      {
+        "NewName": "Level1Gum.SpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T21:11:28.1310889Z"
+      },
+      {
+        "NewName": "Level1Gum.GoldSprite",
+        "OldName": "Level1Gum.SpriteInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-20T21:13:14.7762754Z"
+      },
+      {
+        "NewName": "Level1Gum.TextInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T21:13:26.0988737Z"
+      },
+      {
+        "NewName": "Level1Gum.Quantity",
+        "OldName": "Level1Gum.TextInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-20T21:13:41.3138164Z"
+      },
+      {
+        "NewName": "Level1Gum.TextInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-20T21:25:00.4759741Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Level1Gum.Text Quantity in Level1Gum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-20T21:27:07.9951657Z"
+      },
+      {
+        "NewName": "Level1Gum.Quantity",
+        "OldName": "Level1Gum.TextInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-20T21:27:28.679694Z"
+      },
+      {
+        "NewName": "Level1Gum.GoldUI",
+        "OldName": "Level1Gum.GoldSprite",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-20T21:28:33.5546763Z"
+      },
+      {
+        "NewName": "CoinEntityGum",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-25T23:50:14.534655Z"
+      },
+      {
+        "NewName": "CoinEntityGum (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-25T23:50:29.5707049Z"
+      },
+      {
+        "NewName": "CoinGumComponent",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-26T20:53:55.1840355Z"
+      },
+      {
+        "NewName": "CoinGumComponent (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-26T20:54:01.6497855Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "CoinGumComponent",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2024-03-26T20:54:38.9703768Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.MainMenu",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:17:59.4341013Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.Container MainMenu in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:18:04.0458645Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:19:06.8975968Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ShopBtn",
+        "OldName": "MainMenuScreenGum.ButtonStandardInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T13:20:07.859072Z"
+      },
+      {
+        "NewName": "MainMenuScreenComponent",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-30T13:22:47.0557447Z"
+      },
+      {
+        "NewName": "MainMenuScreenComponent (Container).Sprites",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:23:41.5840134Z"
+      },
+      {
+        "NewName": "MainMenuScreenComponent (Container).Background",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:23:41.6200086Z"
+      },
+      {
+        "NewName": "MainMenuScreenComponent (Container).StartGameButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:23:41.6400084Z"
+      },
+      {
+        "NewName": "MainMenuScreenComponent (Container).ShopBtn",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:23:41.6679916Z"
+      },
+      {
+        "NewName": "MainMenuScreenComponent (Container).ExitButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:23:41.7310088Z"
+      },
+      {
+        "NewName": "MainMenuScreenComponent (Container).Background1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:28:08.8115351Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenComponent (Container).ColoredRectangle Background1 in MainMenuScreenComponent (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:28:14.7945675Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.Controls/ButtonStandard ShopBtn in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:29:37.9718817Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.Controls/ButtonStandard ExitButton in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:29:37.9728744Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.Sprite Sprites in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:29:37.9738775Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.ColoredRectangle Background in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:29:37.9748823Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.Controls/ButtonStandard StartGameButton in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:29:37.9758816Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.MainMenuScreenComponentInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:29:40.5797861Z"
+      },
+      {
+        "NewName": "ShopMenu",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-30T13:32:39.8643338Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ShopMenuInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:33:40.4533684Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:34:33.893578Z"
+      },
+      {
+        "NewName": "IsOpen",
+        "OldName": "OpenMenu",
+        "ElementType": "Screens",
+        "EventType": 4,
+        "TimestampUtc": "2024-03-30T13:36:37.2248071Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.Controls/ButtonStandard ButtonStandardInstance in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T13:43:24.5538038Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T13:43:30.6531994Z"
+      },
+      {
+        "NewName": "MainMenu",
+        "OldName": "OpenMainMenu",
+        "ElementType": "Screens",
+        "EventType": 4,
+        "TimestampUtc": "2024-03-30T13:45:54.6387694Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).BackBtn",
+        "OldName": "ShopMenu (Container).ButtonStandardInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T14:36:06.4611463Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:13:55.1921805Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).PlayerSprite",
+        "OldName": "ShopMenu (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:14:58.1077821Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Stats",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:15:31.2235217Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:17:11.31872Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardIconInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:17:31.2437691Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardIconInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:17:31.8226923Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPButton",
+        "OldName": "ShopMenu (Container).ButtonStandardIconInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:18:23.2764422Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkSpeedBtn",
+        "OldName": "ShopMenu (Container).ButtonStandardIconInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:18:49.8687367Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenBtn",
+        "OldName": "ShopMenu (Container).ButtonStandardIconInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:18:58.2361811Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandardIcon AtkSpeedBtn in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:21:20.9465009Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandardIcon HPButton in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:27:52.4895944Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandardIcon RegenBtn in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:27:52.4926086Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandardIcon AtkSpeedBtn in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:27:52.4955952Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:28:06.5218349Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Text TextInstance in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:28:14.004232Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:28:15.5807867Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).SpriteInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:28:18.2131532Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).SpriteInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:28:19.3342391Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HP Button",
+        "OldName": "ShopMenu (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:29:27.4839693Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkButton",
+        "OldName": "ShopMenu (Container).SpriteInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:29:38.2515962Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenBtn",
+        "OldName": "ShopMenu (Container).SpriteInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:29:47.0366104Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:30:03.9047721Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Sprite RegenBtn in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:30:07.3049138Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Quantity",
+        "OldName": "ShopMenu (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:30:58.7805968Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:31:01.8613785Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Quantity1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:31:10.8433521Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:31:18.0063129Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Quantity2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:31:18.009282Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Sprite AtkButton1 in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:31:30.1471618Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Text Quantity2 in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T15:31:35.3955293Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:35:40.8000972Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Quantity2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:35:40.8030974Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenBtn",
+        "OldName": "ShopMenu (Container).AtkButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:35:53.3905453Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Quantity1",
+        "OldName": "ShopMenu (Container).Quantity1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T15:36:02.949061Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:41:39.4621356Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonIconInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:41:59.7194777Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonIconInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T15:42:01.6141847Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPButton",
+        "OldName": "ShopMenu (Container).HP Button",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T17:13:17.1338484Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:02:17.9121432Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Background",
+        "OldName": "ShopMenu (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:02:23.5727649Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPValue",
+        "OldName": "ShopMenu (Container).Quantity",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:05:04.1294276Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkSpeedValue",
+        "OldName": "ShopMenu (Container).Quantity1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:05:10.514871Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenValue",
+        "OldName": "ShopMenu (Container).Quantity2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:05:16.9628693Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:09:41.6294564Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).CurrentGold",
+        "OldName": "ShopMenu (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:10:13.0586567Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).CurrentGoldSprite",
+        "OldName": "ShopMenu (Container).CurrentGold",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:10:16.5147879Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:10:19.5941849Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).CurrentGold",
+        "OldName": "ShopMenu (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:10:28.4187386Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Sprite HPButton in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:34.4538381Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Sprite AtkButton in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:36.5994381Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Sprite RegenBtn in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:43.0613311Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonIcon ButtonIconInstance2 in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:43.1512874Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Text RegenValue in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:43.1532731Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonIcon ButtonIconInstance in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:49.5536614Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonIcon ButtonIconInstance1 in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:49.561375Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Text AtkSpeedValue in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:49.5625326Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Text HPValue in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:18:49.563509Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:19:09.2218617Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Container Stats in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:19:42.3938366Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandard ButtonStandardInstance in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:20:00.1132244Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).Stats",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:20:05.9036183Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:20:29.7051938Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandardIcon ButtonStandardIconInstance in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:24:04.1197825Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:25:08.7017915Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandard ButtonStandardInstance in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:25:27.2072336Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPContainer",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:25:58.0367151Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPContainer1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:26:00.1246392Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPContainer2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:26:00.9575819Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkSpeedContainer",
+        "OldName": "ShopMenu (Container).HPContainer1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:26:12.2517151Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenContainer2",
+        "OldName": "ShopMenu (Container).HPContainer2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:26:18.7066347Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenContainer",
+        "OldName": "ShopMenu (Container).RegenContainer2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:26:21.1385374Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:26:37.3460571Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPContainer1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:26:40.4472649Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:26:52.6117262Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:26:54.3165256Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPUpgradeBtn",
+        "OldName": "ShopMenu (Container).ButtonStandardInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:27:43.0506187Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkSpeedUpgradeBtn",
+        "OldName": "ShopMenu (Container).ButtonStandardInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:27:56.3216003Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenUpgradeBtn",
+        "OldName": "ShopMenu (Container).ButtonStandardInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:28:07.2339178Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:32:06.9590135Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:32:09.460102Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).ButtonStandardInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:32:10.5499851Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandard ButtonStandardInstance in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:32:23.7224984Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ShopMenu (Container).Controls/ButtonStandard ButtonStandardInstance1 in ShopMenu (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-30T18:32:26.7581678Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).TextInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:32:31.2360129Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).TextInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-30T18:32:32.4152357Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).HPValue",
+        "OldName": "ShopMenu (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:33:10.4740981Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).AtkSpeedValue",
+        "OldName": "ShopMenu (Container).TextInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:33:15.8185561Z"
+      },
+      {
+        "NewName": "ShopMenu (Container).RegenValue",
+        "OldName": "ShopMenu (Container).TextInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-30T18:33:22.9539543Z"
+      },
+      {
+        "NewName": "Controls/ButtonIcon1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-31T16:42:56.950232Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Controls/ButtonIcon1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2024-03-31T16:43:03.4263019Z"
+      },
+      {
+        "NewName": "Controls/ButtonIcon1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-31T16:43:58.188601Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIcon1",
+        "OldName": "Controls/ButtonIcon1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2024-03-31T16:44:12.238342Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "CustomButtons/ButtonIcon1 (Container).Elements/Icon Icon in CustomButtons/ButtonIcon1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-31T16:47:16.151568Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "CustomButtons/ButtonIcon1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2024-03-31T16:47:37.1941445Z"
+      },
+      {
+        "NewName": "Controls/ButtonIconCopy",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-31T16:52:45.172924Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy",
+        "OldName": "Controls/ButtonIconCopy",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2024-03-31T16:52:48.2201754Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "CustomButtons/ButtonIconCopy (Container).Elements/Icon Icon in CustomButtons/ButtonIconCopy (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-31T16:53:05.069419Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-31T16:53:13.7470225Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.6641719Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.6661503Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.6681757Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.670175Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.6721746Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.6741739Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.675173Z"
+      },
+      {
+        "NewName": "CustomButtons/ButtonIconCopy (Container).IconSprite",
+        "OldName": "CustomButtons/ButtonIconCopy (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T16:54:20.6771749Z"
+      },
+      {
+        "NewName": "CustomizableButton",
+        "OldName": "CustomButtons/ButtonIconCopy",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2024-03-31T16:55:01.1148199Z"
+      },
+      {
+        "NewName": "Controls/ButtonIcon1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-31T17:05:21.1717313Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Controls/ButtonIcon1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2024-03-31T19:17:37.8742896Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-03-31T19:25:37.1437138Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-31T19:26:08.3278065Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.0342416Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.0362364Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.0382428Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.0402361Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.042244Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.0432471Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.0452116Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).Background",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:26:15.0472458Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-31T19:27:46.4788826Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6524268Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6543982Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6553976Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6574103Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6593999Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6614083Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6633999Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).FocusedIndicator",
+        "OldName": "CustomButtons/CustomButton (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2024-03-31T19:27:52.6654072Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "CustomButtons/CustomButton (Container).NineSlice FocusedIndicator in CustomButtons/CustomButton (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-31T19:42:18.079118Z"
+      },
+      {
+        "NewName": "MainMenuScreenGum.CustomButtonInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-31T19:44:14.8231912Z"
+      },
+      {
+        "NewName": "CustomButtons/CustomButton (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-03-31T19:46:02.0612522Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainMenuScreenGum.CustomButtons/CustomButton CustomButtonInstance in MainMenuScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-03-31T19:50:15.949888Z"
+      }
+    ]
+  }
+}

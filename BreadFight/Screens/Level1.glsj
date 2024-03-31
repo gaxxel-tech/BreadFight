@@ -1,0 +1,200 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "BaseScreen": "Screens\\GameScreen",
+  "BaseElement": "Screens\\GameScreen",
+  "ReferencedFiles": [
+    {
+      "Name": "Screens/Level1/Level1Map.tmx",
+      "Properties": [
+        {
+          "Name": "CreationOptions",
+          "Value": "{\"IncludeDefaultTileset\":true,\"IncludeGameplayLayer\":true,\"SolidCollisionCheckBoxVisibility\":0,\"IsSolidCollisionBorderChecked\":true,\"ShouldAddCollisionBorder\":true}"
+        }
+      ],
+      "IsSharedStatic": true,
+      "RuntimeType": "FlatRedBall.TileGraphics.LayeredTileMap",
+      "ProjectsToExcludeFrom": []
+    },
+    {
+      "Name": "gumproject/Screens/Level1Gum.gusx",
+      "IsSharedStatic": true,
+      "HasPublicProperty": true,
+      "RuntimeType": "BreadFight.GumRuntimes.Level1GumRuntime",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "NamedObjects": [
+    {
+      "InstanceName": "Map",
+      "SourceClassType": "FlatRedBall.TileGraphics.LayeredTileMap",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [
+        {
+          "Type": "bool",
+          "Member": "CreateEntitiesFromTiles",
+          "Value": true,
+          "Time": 0.0
+        },
+        {
+          "Type": "bool",
+          "Member": "ShiftMapToMoveGameplayLayerToZ0",
+          "Value": true,
+          "Time": 0.0
+        }
+      ],
+      "SourceFile": "Screens/Level1/Level1Map.tmx",
+      "SourceName": "Entire File (LayeredTileMap)",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "DefinedByBase": true
+    },
+    {
+      "InstanceName": "SpawnerList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "PositionedObjectList (Generic)",
+      "SourceClassGenericType": "Entities\\Spawner",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "DefinedByBase": true,
+      "InstantiatedByBase": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "Spawner",
+          "SourceClassType": "Entities\\Spawner",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "bool"
+            }
+          ],
+          "InstructionSaves": [],
+          "SourceType": 1,
+          "SourceFile": "Entities\\Spawner",
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        }
+      ]
+    },
+    {
+      "InstanceName": "SpawnPointLocationList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "PositionedObjectList (Generic)",
+      "SourceClassGenericType": "Entities\\SpawnPointLocation",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "DefinedByBase": true,
+      "InstantiatedByBase": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "SpawnPointLeft",
+          "SourceClassType": "Entities\\SpawnPointLocation",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "bool"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": -8.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": -280.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 1,
+          "SourceFile": "Entities\\SpawnPointLocation",
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "SpawnPointRight",
+          "SourceClassType": "Entities\\SpawnPointLocation",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "bool"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 512.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": -280.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 1,
+          "SourceFile": "Entities\\SpawnPointLocation",
+          "GenerateTimedEmit": true
+        }
+      ]
+    },
+    {
+      "InstanceName": "BaseWeaponList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "PositionedObjectList (Generic)",
+      "SourceClassGenericType": "Entities\\BaseWeapon",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "DefinedByBase": true,
+      "InstantiatedByBase": true
+    }
+  ],
+  "Name": "Screens\\Level1",
+  "CustomClassesForExport": []
+}

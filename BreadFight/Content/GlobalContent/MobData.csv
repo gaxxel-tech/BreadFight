@@ -1,0 +1,5 @@
+"ID (string, required)",mobName(string),health (float),damage (int),reward (int),enemyLevel(int)
+BlueBlob,Blue Blob,20,2,1,1
+OrangeBlob,Orange Blob,30,4,2,2
+WhiteBlob,White Blob,40,6,3,3
+GreenBlob,Green Blob,50,8,4,4

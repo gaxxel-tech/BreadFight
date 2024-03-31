@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="arcade_platformerV2 (1).tsx"/>
+ <layer id="1" name="GameplayLayer" width="32" height="32" tintcolor="#ffffff">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3TR27CUBSFYb8hkVgOEOoG6IQNQGjJBmimbAAIdaMQ+oB/wBMjhBHPBeld6ZPu4NjH1TDcnzU2+McWO+xxwBEnnG3IyfELd3ip34ePB3krmWeO99L9q2T1Ob3S/+q7uNev4rxWr9fq/dt1Te/w/dn5X3rl+w+wBxHCJ8KIIIoY4kgI9Tk5SfYU0sggixzyKOALRaE+J6fEXsY3Kqiihjoa+MGvUJ+T02RvoY0OujDRQx8DDIX6nJwR+xgT/GGKGeZYYImVUJ+TU0PdYY1bvWGi57C+7tf9ul/3637X+2eYO2xx7b4A1yq66wAQAAA=
+  </data>
+ </layer>
+</map>

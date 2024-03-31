@@ -1,0 +1,34 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "ReferencedFiles": [
+    {
+      "Name": "GumProject/Screens/MainMenuScreenGum.gusx",
+      "IsSharedStatic": true,
+      "RuntimeType": "BreadFight.GumRuntimes.MainMenuScreenGumRuntime",
+      "ProjectsToExcludeFrom": []
+    },
+    {
+      "Name": "Screens/MainMenuScreen/Music/LetsgoTheme.ogg",
+      "Properties": [
+        {
+          "Name": "Volume",
+          "Value": 100,
+          "Type": "int"
+        },
+        {
+          "Name": "ShouldLoopSong",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "IsSharedStatic": true,
+      "RuntimeType": "Microsoft.Xna.Framework.Media.Song",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "Name": "Screens\\MainMenuScreen",
+  "CustomClassesForExport": []
+}

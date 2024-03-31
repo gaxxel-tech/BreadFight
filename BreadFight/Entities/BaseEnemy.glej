@@ -1,0 +1,276 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "CreatedByOtherEntities": true,
+  "Is2D": true,
+  "ReferencedFiles": [
+    {
+      "Name": "Entities/Player/Arcade1.png",
+      "Properties": [
+        {
+          "Name": "LoadedOnlyWhenReferenced",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "IsSharedStatic": true,
+      "LoadedOnlyWhenReferenced": true,
+      "RuntimeType": "Microsoft.Xna.Framework.Graphics.Texture2D",
+      "ProjectsToExcludeFrom": []
+    },
+    {
+      "Name": "Entities/BaseEnemy/Sfx/RetroBlopDeadSound.wav",
+      "Properties": [
+        {
+          "Name": "UseContentPipeline",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "IsSharedStatic": true,
+      "RuntimeType": "Microsoft.Xna.Framework.Audio.SoundEffect",
+      "ProjectsToExcludeFrom": []
+    },
+    {
+      "Name": "GlobalContent/MobData.csv",
+      "Properties": [
+        {
+          "Name": "CreationOptions",
+          "Value": "\"Dictionary\""
+        },
+        {
+          "Name": "LoadedOnlyWhenReferenced",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "IsSharedStatic": true,
+      "LoadedOnlyWhenReferenced": true,
+      "DestroyOnUnload": false,
+      "HasPublicProperty": true,
+      "CreatesDictionary": true,
+      "RuntimeType": "",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "CustomVariables": [
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "X",
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "Y",
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "Z",
+      "DefaultValue": 1.0,
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "int",
+          "Type": "String"
+        },
+        {
+          "Name": "CreatesProperties",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "Name": "TeamIndex",
+      "DefaultValue": 1,
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "decimal",
+          "Type": "String"
+        },
+        {
+          "Name": "CreatesProperties",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "Name": "MaxHealth",
+      "DefaultValue": 100.0,
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "double",
+          "Type": "String"
+        },
+        {
+          "Name": "CreatesProperties",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "Name": "SecondsBetweenDamage",
+      "DefaultValue": 0.0,
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "decimal",
+          "Type": "String"
+        },
+        {
+          "Name": "CreatesProperties",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "Name": "DamageToDeal",
+      "DefaultValue": 10.0,
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "BreadFight.DataTypes.MobData",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Value": "Mob Data",
+          "Type": "String"
+        }
+      ],
+      "Name": "MobInfo",
+      "DefaultValue": "OrangeBlob in MobData.csv",
+      "SetByDerived": true,
+      "Summary": "Estadisticas del mob",
+      "CreatesEvent": true,
+      "Category": "Mob Data"
+    }
+  ],
+  "Properties": [
+    {
+      "Name": "ImplementsICollidable",
+      "Value": true,
+      "Type": "bool"
+    },
+    {
+      "Name": "ImplementsIDamageable",
+      "Value": true,
+      "Type": "bool"
+    },
+    {
+      "Name": "ImplementsIDamageArea",
+      "Value": true,
+      "Type": "bool"
+    },
+    {
+      "Name": "InputDevice",
+      "Value": 0,
+      "Type": "int"
+    }
+  ],
+  "NamedObjects": [
+    {
+      "InstanceName": "AxisAlignedRectangleInstance",
+      "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [
+        {
+          "Type": "float",
+          "Member": "Height",
+          "Value": 16.0,
+          "Time": 0.0
+        },
+        {
+          "Type": "float",
+          "Member": "Width",
+          "Value": 15.0,
+          "Time": 0.0
+        }
+      ],
+      "SourceType": 2,
+      "SourceFile": "AxisAlignedRectangle",
+      "HasPublicProperty": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "SpriteInstance",
+      "SourceClassType": "FlatRedBall.Sprite",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [
+        {
+          "Type": "float",
+          "Member": "TextureScale",
+          "Value": 1.0,
+          "Time": 0.0
+        },
+        {
+          "Type": "bool",
+          "Member": "UseAnimationTextureFlip",
+          "Value": false,
+          "Time": 0.0
+        }
+      ],
+      "SourceType": 2,
+      "SourceFile": "Sprite",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    }
+  ],
+  "Name": "Entities\\BaseEnemy",
+  "Events": [
+    {
+      "EventName": "AfterMobInfoSet",
+      "SourceVariable": "MobInfo",
+      "BeforeOrAfter": 1,
+      "DelegateType": ""
+    }
+  ],
+  "CustomClassesForExport": []
+}

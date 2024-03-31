@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScreenSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>FadeInOutScreenGum</Name>
+  <State>
+    <Name>Default</Name>
+    <Variable>
+      <Type>Opacity</Type>
+      <Name>OpacityState</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+  </State>
+  <Category>
+    <Name>Opacity</Name>
+    <IsSetRecursively>false</IsSetRecursively>
+    <State>
+      <Name>Transparent</Name>
+    </State>
+    <State>
+      <Name>Opaque</Name>
+    </State>
+  </Category>
+  <Behaviors />
+</ScreenSave>

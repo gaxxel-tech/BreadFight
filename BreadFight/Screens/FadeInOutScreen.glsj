@@ -1,0 +1,16 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "ReferencedFiles": [
+    {
+      "Name": "GumProject/Screens/FadeInOutScreenGum.gusx",
+      "IsSharedStatic": true,
+      "RuntimeType": "BreadFight.GumRuntimes.FadeInOutScreenGumRuntime",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "Name": "Screens\\FadeInOutScreen",
+  "CustomClassesForExport": []
+}

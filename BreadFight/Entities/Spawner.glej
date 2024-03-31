@@ -1,0 +1,108 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "CreatedByOtherEntities": true,
+  "Is2D": true,
+  "CustomVariables": [
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "X",
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "Y",
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "Z",
+      "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Value": "Spawn Mechanics",
+          "Type": "String"
+        }
+      ],
+      "Name": "SpawnMobRate",
+      "DefaultValue": 0.2,
+      "SetByDerived": true,
+      "Summary": "Velocidad a la que aparecen los mobs.",
+      "Category": "Spawn Mechanics"
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Value": "Spawn Mechanics",
+          "Type": "String"
+        }
+      ],
+      "Name": "SpawnRateIncreasing",
+      "DefaultValue": 0.015,
+      "SetByDerived": true,
+      "Summary": "Velocidad de incremento para la generación de mobs",
+      "Category": "Spawn Mechanics"
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "Entities.BaseEnemyType",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Value": "Spawn Mechanics",
+          "Type": "String"
+        }
+      ],
+      "Name": "EnemyVariants",
+      "SetByDerived": true,
+      "Summary": "Enemys",
+      "Category": "Spawn Mechanics"
+    }
+  ],
+  "Properties": [
+    {
+      "Name": "InputDevice",
+      "Value": 0,
+      "Type": "int"
+    }
+  ],
+  "Name": "Entities\\Spawner",
+  "CustomClassesForExport": []
+}
